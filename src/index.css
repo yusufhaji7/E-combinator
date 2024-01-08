@@ -187,39 +187,40 @@ body {
 
 .about-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  gap: 100px;
 }
 
-.about-content p {
+.about-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-text p {
   font-size: 16px;
   line-height: 1.5;
   color: black;
+  text-align: center;
 }
 
 .about-image {
-  width: 300px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   margin-top: 20px;
 }
 
-/* background */
+@media screen and (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.about-text {
-  background-color: white;
-  color: black;
-  overflow: hidden;
-  transition: transform 0.5s ease;
-}
-
-.about-text:hover {
-  background-color: #EF4804;
-  color: #fff;
-  padding: 15px;
-  transform: translateY(-10%);
-  border-radius: 15px;
+  .about-text {
+    text-align: left;
+  }
 }
 
 /* services */
