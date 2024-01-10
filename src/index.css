@@ -316,3 +316,65 @@ p {
     max-width: 33.33%;
   }
 }
+
+/*Blog*/
+
+/* styles.css (or your preferred CSS file) */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-container h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.blog-post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post h3 {
+  color: #3498db;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Add more styles as needed */
+
+/* Blog.css */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-articles {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-articles:hover {
+  transform: scale(1.05);
+}
+
+/* Add more styles as needed */

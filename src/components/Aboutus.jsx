@@ -1,5 +1,6 @@
 import React from 'react';
 import Fuel from "../assets/Fuel.png";
+import Build from "../assets/Build.png"
  // Import the CSS file for styling
 
 function About() {
@@ -7,7 +8,7 @@ function About() {
     <div className='about-section'>
       <h2 className='about-title'>About Us</h2>
       <div className='about-content'>
-        <img className='about-image' src={Fuel} alt="Fuel" />
+        <img className='about-image' src={Build} alt="Fuel" />
         <div className='about-text'>
           <p>
             Our accelerator program is designed to provide early-stage startups with the tools and resources they need to 
