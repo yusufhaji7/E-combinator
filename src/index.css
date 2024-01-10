@@ -320,6 +320,8 @@ p {
 /*Blog*/
 
 /* styles.css (or your preferred CSS file) */
+/* Blog.css */
+
 .blog-container {
   max-width: 800px;
   margin: 0 auto;
@@ -357,23 +359,17 @@ p {
   line-height: 1.6;
 }
 
-/* Add more styles as needed */
-
-/* Blog.css */
-.blog-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.blog-articles {
-  border: 1px solid #ddd;
+.blog-post a {
+  display: block;
   padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
   transition: transform 0.3s ease-in-out;
 }
 
-.blog-articles:hover {
+.blog-post img {
+  padding: 0;  /* Remove margin around the image */
+}
+
+.blog-post:hover {
   transform: scale(1.05);
 }
 
