@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import About from './components/Aboutus';
-import Services from './components/Services';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -35,6 +35,7 @@ const MainPage = () => (
     <About />
     
     <Blog />
+    <Footer/>
   </>
 );
 

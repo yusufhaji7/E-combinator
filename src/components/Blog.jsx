@@ -5,6 +5,7 @@ import Development from '../assets/dev.png';
 import Investor from '../assets/investor.webp';
 import Services from './Services'; // Import the Services component
 
+
 const Blog = () => {
   const blogPosts = [
     { id: 1, title: 'First Blog Post', content: 'This is the content of the first blog post.', image: `${Development}` },

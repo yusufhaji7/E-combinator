@@ -1,7 +1,8 @@
 // Services.js
 
 import React from 'react';
-import { GiOfficeChair, GiTeacher, RiRefund2Fill } from "react-icons/all";
+import { GiOfficeChair, GiTeacher } from "react-icons/gi";
+import { RiRefund2Fill } from "react-icons/ri"
 
 function Services() {
   return (
