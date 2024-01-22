@@ -19,8 +19,6 @@ function App() {
           <Routes>
             {/* Route for rendering the main page (Intro, About, Services, Blog) */}
             <Route path="/" element={<MainPage />} />
-
-            {/* Route for rendering individual BlogPost component based on the blog post ID */}
             <Route path="/blog/:id" element={<BlogPost />} />
           </Routes>
         </div>
@@ -35,9 +33,7 @@ const MainPage = () => (
     {/* Render other components on the main page */}
     <Intro />
     <About />
-    <Services />
-
-    {/* Render Blog component */}
+    
     <Blog />
   </>
 );

@@ -62,32 +62,7 @@ body {
       }
     }
     
-   /* .data-container{
-      background:#ffebee;
-      height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-    }
-
-
-    .welcome-text {
-      font-family: 'HortaRegular';
-      font-size: 45px;
-      color: #EF4804;
-    }
-    
-    .gif {
-      margin-top: 40px;
-    }
-.animate-image {
-  transition: transform 0.5s ease-in-out;
-}
-
-.animate-image:hover {
-  transform: scale(1.1);
-} */
-/* Intro.css */
+  
 
 .slider-container {
   width: 80%;
@@ -374,3 +349,15 @@ p {
 }
 
 /* Add more styles as needed */
+/* styles.css (or your preferred CSS file) */
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .parent-container {
+    flex-direction: column-reverse;
+  }
+}
