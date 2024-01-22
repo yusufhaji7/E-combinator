@@ -351,13 +351,24 @@ p {
 /* Add more styles as needed */
 /* styles.css (or your preferred CSS file) */
 
-.app-container {
-  display: flex;
-  flex-wrap: wrap;
+footer {
+  background-color: #c0c0c0;
+  padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .parent-container {
-    flex-direction: column-reverse;
-  }
+.social-links:hover{
+  color: #EF4804;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
